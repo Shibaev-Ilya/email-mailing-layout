@@ -3,6 +3,7 @@ const inlineCss = require('gulp-inline-css');
 const sass = require('gulp-sass')(require('sass'));
 const browserSync = require('browser-sync').create();
 const htmlMin = require('gulp-htmlmin');
+const imageMin = require('gulp-imagemin');
 
 const minifyHtml = () => {
   return src('build/*.html')
@@ -35,6 +36,7 @@ const buildHtml = () => {
 
 const buildImg = () => {
   return src('src/img/*.*')
+    .pipe(imageMin())
     .pipe(dest('build/img/'))
 };
 
