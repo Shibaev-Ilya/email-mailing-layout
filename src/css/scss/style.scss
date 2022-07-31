@@ -1,0 +1,191 @@
+img {
+  display: block;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  Margin: 0;
+  padding: 0;
+}
+
+a, td, span {
+  Margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  -webkit-text-size-adjust:none;
+  -ms-text-size-adjust:none;
+  mso-line-height-rule:exactly;
+}
+
+.content-body {
+  width: 600px;
+}
+
+.gray-bg {
+  background-color: #E5E5E5;
+}
+
+.white-bg {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.blue-bg {
+  background-color: #0B379B;
+  color: #FFFFFF;
+}
+
+.header-link {
+  color: #141414;
+  font-size: 11px;
+  line-height: 13px;
+
+  a {
+    color: #13D6C3;
+    text-decoration: underline;
+  }
+}
+
+.header {
+  &__title {
+    color: #0B379B;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  &__subtitle {
+    padding: 0 46px;
+    color: #FF4B33;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.button {
+  background-color: #FF4B33;
+  padding: 8px 16px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 21px;
+  &-orange {
+    background-color: #FFB500;;
+  }
+}
+
+.main {
+  &__text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  &__data {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 111px;
+  }
+}
+
+.blue {
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+  }
+  &__h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+}
+
+.unsubscribe {
+  color: #828282;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: justify;
+
+  a {
+    text-decoration: underline;
+    color: #828282;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
+
+.host {
+  &__title {
+    color: #141414;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  &__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  &__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+.raffle {
+  &__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #13D6C3;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+.footer {
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+  }
+
+  &__contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #13D6C3;
+  }
+
+  &__links {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #141414;
+    padding-bottom: 8px;
+    display: inline-block;
+  }
+}
+
+
