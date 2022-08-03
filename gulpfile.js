@@ -27,7 +27,6 @@ const buildHtml = () => {
       {
         preserveMediaQueries: true,
         applyWidthAttributes: true,
-        removeHtmlSelectors: true
       }
     ))
     .pipe(dest('build/'))
